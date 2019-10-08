@@ -24,5 +24,4 @@ jobs:
           - "grammars/build/distributions/*.zip"
         skip_cleanup: true
         name: "Version $TRAVIS_TAG"
-        on:
-          tags: true
+
